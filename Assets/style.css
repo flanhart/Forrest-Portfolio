@@ -114,26 +114,39 @@ footer a {
 
 .LittleOne {
     display:flex;
+    justify-content: space-between;
     flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .WorkImages1 {
     background-image:url("./images/led\ wall.jpg");
     height:200px;
     width:200px;
+    border: 5px solid black;
 }
 
 .WorkImages2 {
     background-image:url("./images/Calc.jpg");
     border:5px solid black;
+    height:200px;
+    width:200px;
 }
 
 .WorkImages3 {
     background-image:url("./images/Puzzle.jpg");
+    height:200px;
+    width:200px;
+    border: 5px solid black;
 } 
 
 .WorkImages4 {
     background-image:url("./images/run\ buddy.jpg");
+    border: 5px solid black;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
 }
 
 @media screen and (max-width: 768px) {
